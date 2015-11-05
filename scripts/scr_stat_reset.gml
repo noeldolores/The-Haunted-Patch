@@ -1,0 +1,13 @@
+Round = 0;
+wave = 0;
+player_base_health = 100;
+enemy_base_health = 25;
+ammo = 20;
+bullet_damage = 15;
+player_score = 0;
+morph = 0;
+spawn_limit = 0;
+pause = 0;
+player_health = 100;
+portal = 0;
+muzzle = 0;
