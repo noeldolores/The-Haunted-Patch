@@ -5,6 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sounds name="Corn">
+      <sound>sound\snd_bulletHit_corn_1</sound>
+      <sound>sound\snd_bulletHit_corn_2</sound>
+      <sound>sound\snd_corn_death</sound>
+      <sound>sound\snd_corn_death_2</sound>
+      <sound>sound\snd_corn_fire</sound>
+      <sound>sound\snd_corn_spawn</sound>
+      <sound>sound\snd_corn_spawn_2</sound>
+      <sound>sound\snd_corn_walking_1</sound>
+      <sound>sound\snd_corn_walking_2</sound>
+      <sound>sound\snd_corn_walking_3</sound>
+      <sound>sound\snd_corn_walking_5</sound>
+      <sound>sound\snd_corn_walking_4</sound>
+    </sounds>
     <sounds name="Player">
       <sound>sound\snd_gun_fire</sound>
       <sound>sound\snd_player_death</sound>
@@ -24,6 +38,11 @@
       <sound>sound\snd_kernal_pickup</sound>
       <sound>sound\snd_kernal_pickup_2</sound>
     </sounds>
+    <sounds name="Prop">
+      <sound>sound\snd_bulletHit_fence_1</sound>
+      <sound>sound\snd_bulletHit_fence_2</sound>
+      <sound>sound\snd_crate_break</sound>
+    </sounds>
     <sounds name="Pumpkin">
       <sound>sound\snd_bulletHit_pumpkin_1</sound>
       <sound>sound\snd_bulletHit_pumpkin_2</sound>
@@ -37,24 +56,12 @@
       <sound>sound\snd_walking_4</sound>
       <sound>sound\snd_walking_5</sound>
     </sounds>
-    <sounds name="Corn">
-      <sound>sound\snd_bulletHit_corn_1</sound>
-      <sound>sound\snd_bulletHit_corn_2</sound>
-      <sound>sound\snd_corn_death</sound>
-      <sound>sound\snd_corn_death_2</sound>
-      <sound>sound\snd_corn_fire</sound>
-      <sound>sound\snd_corn_spawn</sound>
-      <sound>sound\snd_corn_spawn_2</sound>
-      <sound>sound\snd_corn_walking_1</sound>
-      <sound>sound\snd_corn_walking_2</sound>
-      <sound>sound\snd_corn_walking_3</sound>
-      <sound>sound\snd_corn_walking_5</sound>
-      <sound>sound\snd_corn_walking_4</sound>
-    </sounds>
-    <sounds name="Prop">
-      <sound>sound\snd_bulletHit_fence_1</sound>
-      <sound>sound\snd_bulletHit_fence_2</sound>
-      <sound>sound\snd_crate_break</sound>
+    <sounds name="Background">
+      <sound>sound\snd_background_victory</sound>
+      <sound>sound\snd_background_3</sound>
+      <sound>sound\snd_background_1</sound>
+      <sound>sound\snd_background_2</sound>
+      <sound>sound\snd_background_4</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -156,6 +163,7 @@
       <script>scripts\scr_menu.gml</script>
       <script>scripts\scr_assign_obj_to_fence.gml</script>
       <script>scripts\scr_particle_create_destroy.gml</script>
+      <script>scripts\scr_background_music.gml</script>
     </scripts>
     <scripts name="Player">
       <script>scripts\scr_change_room.gml</script>

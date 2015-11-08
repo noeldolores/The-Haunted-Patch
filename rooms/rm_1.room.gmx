@@ -11,6 +11,7 @@
   <colour>12632256</colour>
   <showcolour>0</showcolour>
   <code>scr_portal_spawn_number();
+scr_background_music();
 
 Round = 1;
 portal = 1; 

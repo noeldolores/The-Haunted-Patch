@@ -86,7 +86,8 @@ enum states {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Input variables for debug room traversal
+            <string>/*
+// Input variables for debug room traversal
 var kRestart, kExit, kPrev, kNext;
 
 kRestart = keyboard_check_pressed(ord('R'));
@@ -114,10 +115,6 @@ if (kNext) {
     else
         room_goto_next();
 }
-
-//Value clamps
-//clamp(wave, 0, 5);
-//clamp(morph, 0, 3);
 </string>
           </argument>
         </arguments>
@@ -162,6 +159,8 @@ if (kNext) {
         draw_text(84, view_hport - 40, string(kernal));
         
         draw_set_colour(c_white);
+        
+        draw_text(view_wport - 70, 8, "P_ause");
 
     }
 }
